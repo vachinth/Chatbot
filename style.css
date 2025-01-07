@@ -1,0 +1,95 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+.bg-container {
+    background-color: #D1F2EB;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-heading {
+    color: #323f4b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+}
+
+/* Chat Container */
+.chat-container {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: 400px;
+    margin-bottom: 70px;
+}
+
+/* User Message */
+.msg-to-chatbot-container {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.msg-to-chatbot {
+    display: inline-block;
+    background-color: #cbd2d9;
+    color: #000;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+/* Chatbot Message */
+.msg-from-chatbot-container {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.msg-from-chatbot {
+    display: inline-block;
+    background-color: #e57742;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+/* Input and Send Button */
+.user-input {
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.send-msg-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.send-msg-btn:hover {
+    background-color: #0056b3;
+}
