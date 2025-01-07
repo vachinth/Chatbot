@@ -28,4 +28,4 @@ A simple and interactive chatbot built using **HTML**, **CSS**, and **JavaScript
 2. Start a local server:
         live-server
 3. Open in your browser:
-        http://127.0.0.1:8080
+       http://127.0.0.1:8080/
